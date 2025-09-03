@@ -135,5 +135,5 @@ File: `database_turismo.dart`
 **Wasgton Gomes**  
 **Leonardo Rocha**  
 
-Mobile Programming Course — Web Programming Discipline  
+Mobile Programming Discipline  
 Analysis and Systems Development Course — IFRO - Campus Ji-Paraná
