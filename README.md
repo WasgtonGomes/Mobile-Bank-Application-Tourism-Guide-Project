@@ -127,10 +127,11 @@ File: `database_turismo.dart`
 - [Dart](https://dart.dev/)  
 - [Sqflite](https://pub.dev/packages/sqflite) (SQLite persistence)  
 - [Path](https://pub.dev/packages/path) (SQLite path support)  
-- [Figma](https://figma.com) (UI prototyping)  
+- [Figma]([https://figma.com](https://www.figma.com/design/yBCbUBrCBgo5NltkglMohg/Modelo-atividade-3-Mobile?node-id=0-1&p=f&t=71YmrctHvPritJfp-0)) (UI prototyping)  
 
 ---
 
 ## 👨‍💻 Author  
 **Wasgton Gomes**  
+**Leoanardo Rocha**
 Mobile Programming Course — IFRO  
