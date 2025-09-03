@@ -100,6 +100,25 @@ File: `database_turismo.dart`
 
 ## 📸 Screenshots  
 
+| Login | Home 1 | Home 2 |
+|-------|--------|--------|
+| ![Login](atividade_3_wasgton/lib/pages/Page_Login.jpeg) | ![Home1](atividade_3_wasgton/lib/pages/Page_Home01.jpeg) | ![Home2](atividade_3_wasgton/lib/pages/Page_Home02.jpeg) |
+
+| Carousel 1 | Carousel 2 | Carousel 3 |
+|------------|------------|------------|
+| ![Carrossel1](atividade_3_wasgton/lib/pages/Pages_integrado_carrosel01.jpeg) | ![Carrossel2](atividade_3_wasgton/lib/pages/Pages_integrado_carrosel02.jpeg) | ![Carrossel3](atividade_3_wasgton/lib/pages/Pages_integrado_carrosel03.jpeg) |
+
+| Details Madrid | Details Paris | Profile |
+|----------------|---------------|---------|
+| ![Madrid](atividade_3_wasgton/lib/pages/Pages_Detalhes_Madri.jpeg) | ![Paris](atividade_3_wasgton/lib/pages/Page_Detalhes_Paris.jpeg) | ![Perfil](atividade_3_wasgton/lib/pages/Page_Perfil.jpeg) |
+
+| Messages | Popular Places 1 | Popular Places 2 |
+|----------|------------------|------------------|
+| ![Mensagens](atividade_3_wasgton/lib/pages/Page_Mensagens.jpeg) | ![Populares1](atividade_3_wasgton/lib/pages/Page_Lugares_Pupulares01.jpeg) | ![Populares2](atividade_3_wasgton/lib/pages/Page_Lugares_Pupulares02.jpeg) |
+
+| Popular Places 3 |
+|------------------|
+| ![Populares3](atividade_3_wasgton/lib/pages/Page_Lugares_Pupulares03.jpeg) |
 
 ---
 
@@ -115,4 +134,3 @@ File: `database_turismo.dart`
 ## 👨‍💻 Author  
 **Wasgton Gomes**  
 Mobile Programming Course — IFRO  
-
