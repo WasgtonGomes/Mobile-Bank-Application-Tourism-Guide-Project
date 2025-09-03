@@ -1,106 +1,118 @@
-# 🌍 Guia de Turismo — Flutter & Dart  
+# 🌍 Tourism Guide — Flutter & Dart  
 
-💻 **Projeto final da disciplina de Programação Mobile**  
-📱 Aplicativo desenvolvido em **Flutter** com **Dart**, focado em apresentar destinos turísticos de forma interativa.  
+💻 **Final project for the Mobile Programming course**  
+📱 Application developed in **Flutter** with **Dart**, focused on presenting tourist destinations interactively.  
 
-O sistema explora conceitos de:  
-- 🎨 **Interfaces gráficas** com `StatelessWidget` e `StatefulWidget`  
-- 🔄 **Gerenciamento de estado** (`setState`, `Provider`)  
-- 📝 **Formulários e validação**  
-- 🌐 **Consumo de APIs** (requisições HTTP GET/POST)  
-- 🗄️ **Persistência de dados** com **SQLite (sqflite)**  
-- 🎯 **Prototipação no Figma**  
-- 🧩 **Componentização de Widgets reutilizáveis**  
-
----
-
-## 🚀 Objetivo do projeto  
-O **Guia de Turismo** tem como objetivo fornecer informações rápidas e organizadas sobre destinos turísticos populares, permitindo que o usuário:  
-- Explore os destinos mais visitados.  
-- Visualize detalhes com fotos, localização, avaliações e preços.  
-- Acesse informações salvas em banco de dados local.  
-- Interaja com a interface de forma simples e intuitiva.  
+The system explores concepts such as:  
+- 🎨 **UI development** with `StatelessWidget` and `StatefulWidget`  
+- 🔄 **State management** (`setState`, `Provider`)  
+- 📝 **Forms and validation**  
+- 🌐 **API consumption** (HTTP GET/POST requests)  
+- 🗄️ **Data persistence** with **SQLite (sqflite)**  
+- 🎯 **Prototyping in Figma**  
+- 🧩 **Reusable widget components**  
 
 ---
 
-## 📂 Estrutura das Telas (Pages)  
+## 🚀 Project Goal  
+The **Tourism Guide** aims to provide quick and organized information about popular tourist destinations, allowing the user to:  
+- Explore the most visited destinations.  
+- View details with photos, location, reviews, and prices.  
+- Access locally saved data through a database.  
+- Interact with a clean and user-friendly interface.  
+
+---
+
+## 📂 Screens (Pages)  
 
 ### 🔑 **LoginPage**  
-- Tela inicial do app.  
-- Formulário com campos personalizados (`CustomTextField`) e botão estilizado (`CustomButton`).  
-- Objetivo: autenticar ou simular acesso do usuário.  
+- First screen of the app.  
+- Form with custom input fields (`CustomTextField`) and a styled button (`CustomButton`).  
+- Goal: authenticate or simulate user access.  
 
 ---
 
 ### 🏠 **HomePage**  
-- Tela principal após login.  
-- Componentes:  
-  - Barra superior com **foto de perfil + nome**.  
-  - Notificações (ícone interativo).  
-  - Seção **"Melhor destino"** em carrossel.  
-- Objetivo: servir como hub de navegação para os destinos.  
+- Main screen after login.  
+- Components:  
+  - Top bar with **profile picture + name**.  
+  - Notifications (interactive icon).  
+  - **"Best Destination"** section with carousel.  
+- Goal: serve as navigation hub for destinations.  
 
 ---
 
 ### 🎡 **IntegradoCarrosel**  
-- Tela de carrossel de imagens.  
-- Exibe os destinos em destaque de forma interativa.  
+- Image carousel screen.  
+- Displays featured destinations interactively.  
 
 ---
 
 ### 🏰 **DetalhesMadriPage**  
-- Mostra informações detalhadas sobre **Madri (Espanha)**.  
-- Componentes:  
-  - Foto em destaque.  
-  - Nome do destino, localização e avaliações.  
-  - Carrossel de imagens adicionais.  
-  - Descrição do local.  
-  - Botão **“Agende agora”**.  
+- Detailed information about **Madrid (Spain)**.  
+- Components:  
+  - Highlight image.  
+  - Destination name, location, and reviews.  
+  - Additional image carousel.  
+  - Description text.  
+  - **“Book now”** button.  
 
 ---
 
 ### 🗼 **DetalhesParisPage**  
-- Mesma estrutura da tela de Madri, mas para **Paris (França)**.  
-- Inclui fotos, preços, avaliação e botão de agendamento.  
+- Same structure as Madrid’s detail page, but for **Paris (France)**.  
+- Includes photos, price, reviews, and booking button.  
 
 ---
 
 ### 📍 **LugaresPopularesPage**  
-- Lista com outros destinos turísticos cadastrados.  
-- Os dados vêm do **SQLite (DataBaseTurismo)**.  
+- List with other registered tourist destinations.  
+- Data comes from **SQLite (DataBaseTurismo)**.  
 
 ---
 
 ### 👤 **PerfilPage**  
-- Exibe informações do usuário.  
-- Pode ser expandida para permitir edição de perfil.  
+- Displays user profile information.  
+- Can be expanded to allow profile editing.  
 
 ---
 
 ### 💬 **MensagensPage**  
-- Tela para exibir notificações ou mensagens do app.  
-- Objetivo: comunicação e lembretes para o usuário.  
+- Screen for notifications or app messages.  
+- Goal: provide communication and reminders for the user.  
 
 ---
 
-## 🗄️ Banco de Dados Local — SQLite  
-Arquivo: `database_turismo.dart`  
-- Tabela: **places**  
-- Campos: `id`, `name`, `location`, `reviews`  
-- Dados iniciais: Madri, Paris, Lima, Cairo, Ji-Paraná e Nova York.  
-- Funções: **insert**, **queryAllPlaces**, **updatePlace**.  
+## 🗄️ Local Database — SQLite  
+File: `database_turismo.dart`  
+- Table: **places**  
+- Fields: `id`, `name`, `location`, `reviews`  
+- Initial data: Madrid, Paris, Lima, Cairo, Ji-Paraná, and New York.  
+- Functions: **insert**, **queryAllPlaces**, **updatePlace**.  
 
 ---
 
-## 🧩 Componentes Reutilizáveis  
-- **CustomButton**: botão estilizado com largura total e bordas arredondadas.  
-- **CustomTextField**: campo de texto personalizado com suporte a senha (`obscureText`).  
+## 🧩 Reusable Components  
+- **CustomButton**: styled button with full width and rounded borders.  
+- **CustomTextField**: custom text field with password support (`obscureText`).  
 
 ---
 
-## 📸 Demonstração Visual  
-👉 Aqui você pode adicionar **prints das telas** (ou gifs) para que quem acessar o repositório veja o app em funcionamento.  
+## 📸 Screenshots  
 
- 
-![Detalhes](assets/screenshots/detalhes.png)  
+
+---
+
+## ⚙️ Technologies Used  
+- [Flutter](https://flutter.dev/)  
+- [Dart](https://dart.dev/)  
+- [Sqflite](https://pub.dev/packages/sqflite) (SQLite persistence)  
+- [Path](https://pub.dev/packages/path) (SQLite path support)  
+- [Figma](https://figma.com) (UI prototyping)  
+
+---
+
+## 👨‍💻 Author  
+**Wasgton Gomes**  
+Mobile Programming Course — IFRO  
 
