@@ -131,8 +131,9 @@ File: `database_turismo.dart`
 
 ---
 
-## 👨‍💻 Author  
+## 👨‍💻 Authors  
 **Wasgton Gomes**  
-**Leoanardo Rocha**
+**Leonardo Rocha**  
 
-Mobile Programming Course — IFRO  
+Mobile Programming Course — Web Programming Discipline  
+Analysis and Systems Development Course — IFRO - Campus Ji-Paraná
